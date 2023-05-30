@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="application/x-javascript">
+     addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <div class="login_form">
+        <form action="#" class="form">
+            <h1 class="form_title"> Form </h1>
+            <div class="form_div">
+                <input type="text" class="form_input" placeholder=" ">
+                <label class="form_label">Full Name</label>
+            </div>
+            <div class="form_div">
+                <input type="text" class="form_input" placeholder=" ">
+                <label class="form_label">Email</label>
+            </div>
+           
+
+            <div class="form_div">
+                <input type="password" id="exampleInputPassword1" class="form_input" placeholder=" ">
+                <label for="exampleInputPassword1" class="form_label" >Password</label>
+            </div>
+            <div class="form_div">
+                <input type="password" class="form_input"  id="exampleInputPassword1-confirmation" placeholder=" ">
+                <label for="exampleInputPassword1-confirmation" class="form_label" > Confirm Password</label>
+            </div>
+            <div class="phone"> Ph no.
+                (<input class="phone-input1" name="phone-input" type="tel" size="1" maxlength="1" placeholder="5" autofocus="autofocus">
+                <input class="phone-input1" name="phone-input" type="tel" size="1" maxlength="1" placeholder="5">
+                <input class="phone-input1" name="phone-input" type="tel" size="1" maxlength="1" placeholder="5">)
+                <input class="phone-input1" name="phone-input" type="tel" size="1" maxlength="1" placeholder="5">
+                <input class="phone-input1" name="phone-input" type="tel" size="1" maxlength="1" placeholder="5">
+                <input class="phone-input1" name="phone-input" type="tel" size="1" maxlength="1" placeholder="5"> -
+                <input class="phone-input1" name="phone-input" type="tel" size="1" maxlength="1" placeholder="5">
+                <input class="phone-input1" name="phone-input" type="tel" size="1" maxlength="1" placeholder="5">
+                <input class="phone-input1" name="phone-input" type="tel" size="1" maxlength="1" placeholder="5">
+                <input class="phone-input1" name="phone-input" type="tel" size="1" maxlength="1" placeholder="5">
+            </div>
+            <textarea placeholder=" Comment box" rows="20" name="comment[text]" id="comment_text" cols="40" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"></textarea>
+
+            <div id="captcha" class="form_div">
+                <div class="preview"></div>
+                <div class="captcha_form"> 
+                    <input type="text" id="captcha_form" class="form_input_captcha" placeholder=" ">
+                    <label class="form_label_captcha">Enter Captcha</label>
+                    <button class="captcha_refersh">
+                        <i class="fa fa-refresh"></i>
+                        Refresh
+                    </button>
+                </div>
+            </div>
+
+            <input type="submit" class="form_button" value="Log In">
+
+
+            
+        </form>
+        <div id="validator-output"></div>
+    </div>
+    <ul class="colorlib-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
